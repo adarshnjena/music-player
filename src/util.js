@@ -4,18 +4,18 @@ function songsData() {
   return [
     {
       name: "Chill Together",
-      cover: "assets/img/1.jpg",
+      cover: "assets/img/2.png",
       artist: "Chill Hop",
-      audio: "assets/songs/1.mp3",
+      audio: "assets/songs/2.mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
       active: true,
     },
     {
       name: "Chill Together",
-      cover: "assets/img/2.png",
+      cover: "assets/img/1.jpg",
       artist: "Chill Hop",
-      audio: "assets/songs/2.mp3",
+      audio: "assets/songs/1.mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
       active: false,

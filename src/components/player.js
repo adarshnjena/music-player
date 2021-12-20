@@ -65,14 +65,15 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, songs, setCurrentSong })
       </div>
 
       <div className="play-control">
-        <box-icon onClick={() => songChangeHandler('back')} border="circle" name="chevron-left" size="7vh"></box-icon>
+        <box-icon onClick={() => songChangeHandler('back')} border="circle" name="chevron-left" size="7vh" color="white"></box-icon>
         <box-icon
           onClick={playSongHandler}
           border="circle"
           name={isPlaying ? "pause" : "play"}
           size="7vh"
+          color="white"
         ></box-icon>
-        <box-icon onClick={() => songChangeHandler('next')} border="circle" name="chevron-right" size="7vh"></box-icon>
+        <box-icon onClick={() => songChangeHandler('next')} border="circle" name="chevron-right" size="7vh" color="white"></box-icon>
       </div>
       <audio
         ref={audioRef}

@@ -3,6 +3,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding:5px 2px;
+  z-index: 900;
+  position: relative;  
   button {
     z-index: 900;
     font-family: "Nunito", sans-serif;

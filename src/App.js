@@ -7,6 +7,7 @@ import data from "./util";
 import Library from "./components/library";
 import { CustomCursor } from "./CustomCursor";
 import Nav from "./components/nav";
+import ParticlesApp from "./components/particles";
 
 function App() {
   const [songs, setSongs] = useState(data());
@@ -15,6 +16,7 @@ function App() {
   const [libraryStatus, setLibraryStatus] = useState(false);
   return (
     <div className="App">
+
       <CustomCursor />
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
       <Song currentSong={currentSong} />
@@ -32,6 +34,7 @@ function App() {
         setCurrentSong={setCurrentSong}
         setIsPlaying={setIsPlaying}
       />
+      <ParticlesApp />
     </div>
   );
 }

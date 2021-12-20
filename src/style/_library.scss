@@ -4,7 +4,7 @@
   left: 0;
   width: 21rem;
   height: 100%;
-  background-color: lightcyan;
+  background-color: #c1fba4;
   box-shadow: 2px 2px 50px rgb(200, 200, 200);
   overflow: scroll;
   transform: translateX(-100%);
@@ -32,10 +32,7 @@
   }
 }
 
-.selected {
-  background-color: rgb(233, 173, 173);
-  border-radius: 20px;
-}
+
 
 .library-song {
   display: flex;
@@ -99,4 +96,11 @@
 .libraryActive {
   opacity: 1;
   transform: translateX(0%);
+}
+.selected {
+  background-color: #ffef9f;
+  .song-dis{
+    color: black;
+  }
+  border-radius: 20px;
 }

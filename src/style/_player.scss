@@ -37,11 +37,11 @@
     cursor: none;
     box-icon {
       cursor: pointer;
-      background-color: wheat;
+      background-color: #000000;
       border-radius: 50%;
     }
     :hover {
-      background-color: coral;
+      background-color: #2b2124;
     }
     @media screen and (max-width: 900px) {
       width: 50%;
