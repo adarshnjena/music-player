@@ -13,7 +13,7 @@ export default function ParticlesApp() {
                     zIndex: 0
                 },
                 background: {
-                    color: "#ffef9f"
+                    color: "#ffffff"
                 },
                 fpsLimit: 60,
                 interactivity: {
@@ -42,9 +42,9 @@ export default function ParticlesApp() {
                     }
                 },
                 particles: {
-                    color: { value: "#FFFFFF" },
+                    color: { value: "#ffef9f" },
                     links: {
-                        color: "#FFFFFF",
+                        color: "#ffef9f",
                         distance: 500,
                         enable: false,
                         opacity: 0.4,
