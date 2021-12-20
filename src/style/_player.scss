@@ -1,0 +1,56 @@
+.player {
+  min-height: 23vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Nunito", sans-serif;
+  cursor: none;
+
+  .time-control {
+    width: 50%;
+    display: flex;
+    input {
+      width: 100%;
+    }
+
+    p {
+      padding: 1rem;
+    }
+    @media screen and (max-width: 900px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 580px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 450px) {
+      width: 99%;
+    }
+  }
+
+  .play-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+    cursor: none;
+    box-icon {
+      cursor: pointer;
+      background-color: wheat;
+      border-radius: 50%;
+    }
+    :hover {
+      background-color: coral;
+    }
+    @media screen and (max-width: 900px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 580px) {
+      width: 70%;
+    }
+    @media screen and (max-width: 450px) {
+      width: 80%;
+    }
+  }
+}

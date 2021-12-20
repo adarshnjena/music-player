@@ -1,0 +1,37 @@
+.song-container {
+  padding: 5vh 0 0 0;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 25vw;
+    border-radius: 50%;
+    @media screen and (max-width: 900px) {
+      width: 40vw;
+    }
+    @media screen and (max-width: 580px) {
+      width: 50vw;
+    }
+    @media screen and (max-width: 450px) {
+      width: 80vw;
+    }
+  }
+
+  h1 {
+    padding: 25px 0 5px 0;
+    font-family: "Nunito", sans-serif;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: rgb(83, 83, 83);
+  }
+}

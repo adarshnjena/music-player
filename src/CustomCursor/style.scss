@@ -1,0 +1,13 @@
+.app-cursor {
+  z-index: 1000;
+  pointer-events: none;
+  overflow: hidden;
+  position: fixed;
+  font-size: 40px;
+  img {
+    height: 40px;
+  }
+  @media screen and (max-width: 900px) {
+    opacity: 0;
+  }
+}
