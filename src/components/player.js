@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 const Player = ({ currentSong, isPlaying, setIsPlaying, songs, setCurrentSong }) => {
   const audioRef = useRef(null);
@@ -45,7 +45,7 @@ const Player = ({ currentSong, isPlaying, setIsPlaying, songs, setCurrentSong })
         audioRef.current.pause();
         setIsPlaying(!isPlaying);
       }
-      if (index == 0) { index = songs.length }
+      if (index === 0) { index = songs.length }
       songs[index - 1].active = true;
       await setCurrentSong(songs[(index - 1)]);
     }
